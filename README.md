@@ -65,3 +65,7 @@ While writing to a text file named `example_file.txt` seems simple, it is the fo
 * **System Logging:** Servers run 24/7 and generate massive amounts of status data. They cannot "write over" old data; they must add to it continuously. The `appendFile()` function you wrote simulates the backend of a server log (like `access.log` in Apache/Nginx), where every request is appended to the end of a file for security auditing.
 * **Database Foundations:** A database is essentially a very complex system of file handling. When you "Read" from a database, the engine is performing highly optimized versions of `fopen` and `fgets` to retrieve records stored on the hard drive.
 * **Data Transport:** "CSV" (Comma Separated Values) files are the standard for moving data between Excel and programming environments. Your program’s ability to read text lines is the first step in building a parser that can read a CSV file and analyze business data.
+
+*OUTPUT*:
+
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/f5c68c16-8bdf-454f-a7a3-ea62c352334c" /> 
